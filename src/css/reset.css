@@ -15,21 +15,29 @@ p:last-child {
 
 ul {
   margin: 0;
-  padding: 0;
-  list-style: none;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 a {
+  outline: transparent;
   color: currentColor;
   text-decoration: none;
 }
 
 button {
+  border: none;
+  outline: transparent;
   cursor: pointer;
 }
 
 img {
   display: block;
   max-width: 100%;
+  object-fit: cover;
   height: auto;
+}
+
+body {
+  margin: 0;
 }
